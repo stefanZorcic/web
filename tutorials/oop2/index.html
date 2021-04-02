@@ -220,9 +220,53 @@
                         </div>
                      </div>
                   </header>
-                   <main id="PAGES_CONTAINER" tabindex="-1">
-                       <iframe src="Intermediate OOP.pdf#toolbar=0&navpanes=0" width="100%" height="1000px">
-                        </iframe>
+                  <main id="PAGES_CONTAINER" tabindex="-1">
+                       <div style="font-size: 20px;text-align: left;">
+                       <h3>Intermediate OOP</h3>
+                          <br>
+                          <p>In this tutorial we will cover inheritance, polymorphism, abstract classes and interfaces.</p>
+                          <br>
+                          <p>	Inheritance is the process in which class inherit attributes and behaviours from another class. The class that is inheriting the attributes and behaviours is called the subclass while the class to who the behaviours and attributes belong is called the superclass. This relationship can be thought of as a parent/child relationship where the child(subclass) can gain attributes such as blue eyes from the parent(superclass).</p>
+                          <br>
+                          <p>The superclass subclass relationship uses the keyword extends to indicate inheritance.</p>
+                          <br>
+                          <p>Superclass</p>
+                          <img src="p1.png">
+                          <p>Subclass</p>
+                          <img src="p2.png">
+                          <p>Upon creating an instance of the subclass it becomes evident we can access behaviours and attributes from the superclass. In this case after creating an instance of the Child class we can call the eyeColor variable from the Parent class.</p>
+                          <br>
+                          <p>Code:</p>
+                          <img src="p3.png">
+                          <p>Output:</p>
+                          <img src="p4.png">
+                          <p>Polymorphism is an integral part of more advanced OOP projects. Polymorphism expands the concept of inheritance to multiple classes. Polymorphism allows for one superclass to have multiple subclasses to truly form a class tree. An example of a use of polymorphism can be for animals classes. We can create a class with behaviours common to all animals (such as breathing and eating), then create individual subclasses for each animal for specific behaviours.
+Below is an implementation of what is described. Super calls the superclass constructor and must be in the first line of subclass constructor.</p>
+                          <br>
+                          <p>Superclass:</p>
+                          <img src="p5.png">
+                          <p>Subclass:</p>
+                          <img src="p6.png">
+                          <p>Subclass:</p>
+                          <img src="p7.png">
+                          <p>Abstraction is another important part of OOP that is used for programmers to only give essential pieces of information. Abstraction in Java OOP can be done by using the abstract non-access modifier or the interface non-access modifier. </p>
+                          <br>
+                          <p>The abstract modifier can be used in place of Public when declaring a class, however abstract classes have the caveat of not being able to make an object and are only used for inheritance of a subclass. Abstract classes also can have abstract method which do not have a code body, the Cody body is to be implemented in the subclass. An example of an abstract class is below.</p>
+                          <br>
+                          <p>*Note, when extending an abstract class you must override all abstract methods, otherwise the code will not compile.</p>
+                          <br>
+                          <p>Abstract-class:</p>
+                          <img src="p8.png">
+                          <p>Subclass:</p>
+                          <img src="p9.png">
+                          <p>Interface is another method of abstraction is Java OOP, interfaces do not have any code bodies in their method and like abstract classes must be used through a subclass. However interfaces use the keyword implements instead of extends, implements has the same function as extends and have very small differences in practice.</p>
+                          <br>
+                          <p>Interface:</p>
+                          <img src="p10.png">
+                          <p>Subclass:</p>
+                          <img src="p11.png">
+
+                       </div>
                    </main>
 
                   <footer tabindex="-1" id="SITE_FOOTER_WRAPPER">
