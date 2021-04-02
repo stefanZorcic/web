@@ -221,8 +221,41 @@
                      </div>
                   </header>
                    <main id="PAGES_CONTAINER" tabindex="-1">
-                       <iframe src="Searching & Sorting.pdf#toolbar=0&navpanes=0" width="100%" height="1000px">
-                        </iframe>
+                       <div style="font-size: 20px;text-align: left;">
+                           <h3>Searching & Sorting</h3>
+                           <br>
+                           <p>Searching is an important part of programming, given a list of values find the index of a certain value, the application for searching are endless for example to get to this website you had to Google the link (which most likely used a searching algorithm). This tutorial will cover the two most prevalent searching algorithms: sequential search and binary search.</p>
+                           <br>
+                           <p>Sequential search is the easiest search to implement however it is has a time complexity of O(n) which is the best time complexity for an unsorted array however often too slow to be used in many professional applications. Sequential search iterates over the array and compares to the value to be found and returns index in element is in array and -1 otherwise.</p>
+                           <img src="p1.png">
+                           <p>Binary search is significantly faster than sequential search with a time complexity of      O (log n) however binary search requires the array to be sorted to properly work. Therefore Binary search is typically used over sequential search if the array needs to be searched for multiple values and vice versa otherwise. Binary search checks the middle value of the array and if the value is greater than the value to be found it discard the right, otherwise discarding the left. Binary search repeats this process until the element is found.</p>
+                           <img src="p2.png">
+                           <p>Sorting like searching has a plethora of application, in fact, this tutorial has already covered a uses with binary search. Sorting is considered to have a cost of O (n log n). However this time complexity is reserved for the advanced sorts. This tutorial will cover: bubble sort, insertion sort, selection sort, merge sort.</p>
+                           <br>
+                           <p>Bubble sort has a time complexity of O (n²) and hence is not used on account of the algorithm being slow. Bubble sorts operates comparing a pair of elements and swapping if needed, repeating this process for the entire array. A implementation of bubble sort is below.</p>
+                           <img src="p3.png">
+                           <p>Insertion sort like bubble sort is not utilized because of its time complexity of O (n²). Insertion sort’s algorithm is similar to bubble sort as the algorithm iterates over the array and compares the current element to the previous element and swap accordingly.</p>
+                           <img src="p4.png">
+                           <p>Selection sort like the previous sorts has a time complexity of O (n²) and is not frequently used because it is relatively slow. Selection sort finds the minimum value element in the unsorted array and adds it to the front of the unsorted section and labels that point sorted. Selection sort repeats this process for the entire array.</p>
+                           <img src="p5.png">
+                           <p>Merge sort with a time complexity of O ( n log n ) is the sorting algorithm that is used primarily is most professional application. However merge sort is the most complex of all the sorting algorithm presented so far. Merge sort follows these basic recursive steps:</p>
+                           <br>
+                           <p>1. Find the middle point to divide the array into two halves  </p>
+                           <br>
+                           <p>2. Call mergeSort for first half  </p>
+                           <br>
+                           <p>3. Call mergeSort for second half  </p>
+                           <br>
+                           <p>4. Merge the two halves sorted in step 2 and 3  </p>
+
+
+
+
+
+
+
+
+                       </div>
                    </main>
 
                   <footer tabindex="-1" id="SITE_FOOTER_WRAPPER">
